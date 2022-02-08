@@ -1,0 +1,106 @@
+/* ?second section  */
+.responsive__best__music {
+  display: none;
+}
+
+.section__best__music {
+  background-image: url("../assets/images/bg-rings.png");
+  background-repeat: no-repeat;
+  background-position: top 100% left 0%;
+  /* min-height: 1000px; */
+}
+
+.section__columns {
+  display: flex;
+}
+
+.column {
+  width: 33.333333%;
+}
+/* !first column  */
+
+.text__logo {
+  width: 256px;
+  margin-top: 75px;
+  margin-left: 0;
+  display: flex;
+  gap: 11px;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.text__logo span {
+  color: #fff;
+  font-size: 18px;
+}
+
+.text__logo img {
+  height: 43px;
+  width: 255px;
+}
+
+.change__list {
+  display: none;
+}
+
+.first__column .first__column--img1 {
+  display: block;
+  margin-top: 80px;
+  margin-left: 43px;
+}
+
+.first__column .first__column--img2 {
+  margin-top: 152px;
+  margin-left: -40px;
+}
+/* !second column */
+
+.second__column .second__column--img1 {
+  margin-top: 180px;
+  margin-right: 85px;
+}
+
+.second__column .second__column--img2 {
+  margin-top: 131px;
+  margin-left: -40px;
+}
+/* !third column */
+
+.third__column--img {
+  margin-left: 30px;
+  margin-top: -54px;
+  position: relative;
+  z-index: 6;
+}
+
+.best__music--titles {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 128px;
+}
+
+.best__music--titles .title {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.best__music--titles .subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+.btn__activate {
+  color: #121212;
+  background-color: #fff;
+  width: 270px;
+  height: 72px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -1,0 +1,409 @@
+@media all and (max-width: 1210px) {
+  /* TODO HEADER+HERO */
+  header {
+    padding-top: 5px;
+  }
+  .header__left {
+    width: 70%;
+  }
+  .header__right {
+    width: 30%;
+  }
+  .be__music {
+    display: none;
+  }
+  .hero__content--titles {
+    z-index: 6;
+    width: 50%;
+  }
+  .hero__content--images {
+    width: 50%;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /* TODO2section */
+  .first__column .first__column--img2 {
+    margin-left: 0;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /*TODO section install app */
+  .install__app {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .install__app--content {
+    left: auto;
+    top: -218px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+
+/* !wwwwwwwwwwwwwwwwwwwwwwwwwwww */
+@media all and (max-width: 768px) {
+  /*  */
+  /* TODO hero images */
+  .hero__content--images .back__image {
+    right: 60px;
+  }
+  .front__image img {
+    right: -98px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /* TODO best music  */
+  .section__best__music {
+    /* contain: content; */
+    display: none;
+  }
+
+  .responsive__best__music {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/images/bg-rings.png");
+    background-repeat: no-repeat;
+    background-position: top -100% left 0%;
+    background-size: contain;
+  }
+
+  .responsive__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .best__music--titles {
+    align-items: center;
+  }
+
+  .best__music--titles .title {
+    text-align: center;
+  }
+
+  .best__music--titles .subtitle {
+    text-align: center;
+  }
+
+  .musics {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .music__left,
+  .music__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+  }
+
+  .music__item {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .music__item img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /* TODO tarif info */
+  .tarif__info--content {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .tarif__info--content .content__right {
+    width: 100%;
+  }
+
+  .tarif__info--content .content__left {
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .bg__rings {
+    right: -40%;
+  }
+
+  .right__info .info__item {
+    gap: 10px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /* TODO install app section*/
+  .install__app {
+    height: 1050px;
+  }
+
+  .phone__image {
+    margin-right: -47px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /* TODO footer */
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .footer__center {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .footer__right {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+
+/* !wwwwwwwwwwwwwwww */
+@media all and (max-width: 430px) {
+  .burger__btn {
+    display: flex;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /* TODO header+hero */
+  .header__left {
+    width: 55%;
+    justify-content: flex-end;
+  }
+
+  .header__right {
+    width: 45%;
+  }
+
+  .left__menu {
+    display: none;
+  }
+
+  /* hero */
+  .hero {
+    height: auto;
+    overflow: hidden;
+    padding-top: 7px;
+    padding-bottom: 0;
+  }
+
+  .hero__content--titles {
+    width: 100%;
+    margin-top: 234px;
+  }
+
+  .hero__content--title h1 {
+    font-size: 2rem;
+  }
+
+  .hero__content--subtitle h2 {
+    font-size: 16px;
+  }
+
+  .hero__content--btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 33;
+  }
+
+  .hero__content--images {
+    order: -20;
+    width: 0;
+  }
+
+  .hero__content--images .front__image {
+    bottom: 85px;
+  }
+
+  .hero__content--images .front__image img {
+    width: 440px;
+    right: -142px;
+    top: 51px;
+  }
+
+  .hero__content--images .back__image {
+    height: 0;
+  }
+
+  .hero__content--images .back__image img {
+    width: 300px;
+    position: relative;
+    right: -262px;
+    top: 44px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /* TODO best music */
+  .responsive__best__music {
+    background-position: top -35% left 0%;
+  }
+
+  .text__logo {
+    margin-top: 20px;
+  }
+
+  .best__music--titles {
+    margin-top: 40px;
+  }
+
+  .best__music--titles .title {
+    font-size: 2rem;
+  }
+
+  .musics {
+    max-width: 385;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .music__left,
+  .music__right {
+    min-width: 100%;
+    position: relative;
+  }
+
+  .change__list {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .change__list:hover {
+    background-color: rgba(250, 250, 250, 0.5);
+  }
+
+  .music__item {
+    gap: 20px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /* TODO  */
+  .bg__rings {
+    width: 100%;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /* TODO tarif info */
+  .tarif__info--content {
+    padding: 16px;
+  }
+
+  .tarif__info--content .content__left {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+  }
+
+  .content__left .title {
+    font-size: 37px;
+  }
+
+  .content__left .subtitle {
+    font-size: 20px;
+  }
+
+  .tarif__info--content .content__right .right__info {
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
+  .tarif__info--content .content__right .right__info li {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .tarif__info--content .content__right .buttons {
+    flex-direction: column;
+  }
+
+  .tarif__info--content .content__right .buttons button {
+    width: 100%;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .tarif__info--content .content__right .buttons button:nth-child(2) {
+    order: -2;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /* TODO Footer */
+  .footer__center {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/* !375 */
+@media all and (max-width: 375px) {
+  .hero__content--titles {
+    margin-top: 210px;
+  }
+  .hero__content--images .front__image img {
+    top: 20px;
+  }
+}
